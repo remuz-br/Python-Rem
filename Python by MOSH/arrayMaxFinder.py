@@ -1,0 +1,6 @@
+def find_max(number_list):
+    maxs = number_list[0]
+    for number in number_list:
+        if number > maxs:
+            maxs = number
+    return maxs
