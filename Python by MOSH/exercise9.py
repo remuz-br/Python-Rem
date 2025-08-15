@@ -1,3 +1,4 @@
+#Class exercise were we define an init method for storing attributes
 class Person:
     def __init__(self, name):
         self.name = name  # "self.name" belongs to *this* object

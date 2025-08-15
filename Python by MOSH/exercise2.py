@@ -1,6 +1,7 @@
+#exercise to simulate the buyer having different downpayment depending on his credit score
 housePrice = 1000000
 creditScore = input('Does the buyer has good credit? ')
-buyerCredit = 'yes' in creditScore
+buyerCredit = 'yes' in creditScore # this statement returns a boolean value
 downPayment = 0
 if buyerCredit == True:
   downPayment = housePrice * .1

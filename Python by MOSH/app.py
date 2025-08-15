@@ -1,3 +1,4 @@
+#Exercise for if,elif, and else statements
 x = input('What is the temperature today? ')
 temp1 = 'hot' in x
 temp2 = 'cold' in x

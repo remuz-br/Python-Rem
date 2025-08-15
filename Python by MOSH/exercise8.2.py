@@ -1,3 +1,4 @@
+#exercise for converting a number in a string into words using a dictionary
 numberwords = {
   '1' : 'one',
   '2' : 'two',
@@ -14,6 +15,6 @@ numberwords = {
 phone = input('>')
 result = ''
 for index in phone:
-  result += numberwords.get(index) + ' '
+  result += numberwords.get(index) + ' ' #based on the index which will match the dictionary numbers, this value will return its counterpart value in dictionary
 
 print(result)

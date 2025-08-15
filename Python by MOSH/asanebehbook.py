@@ -40,5 +40,42 @@ def createAcronym(acronymSource):
     return acronym
 print(createAcronym(company))
 print(createAcronym(company2))
+print(company.index('C'))
+print(company.index('F'))
+company = 'Coding For All People'
+print(company.rfind('l'))
+string2 = 'You cannot end a sentence with because because because is a conjunction'
+print(string2.index('because'))
 
+string3 = 'You cannot end a sentence with because because because is a conjuction'
+
+string3split = string3.split(' ')
+print(string3split)
+splitResult = []
+for word in string3split:
+    if word != 'because':
+        splitResult.append(word)
+
+print(splitResult)
+print(company.startswith('Coding'))
+print(company.endswith('Coding'))
+
+string4 = '    Coding For All   '
+string4split = string4.split()
+string4join = ' '.join(string4split)
+print(string4join)
+string5 = '30DaysOfPython'
+string6 = 'thirty_days_of_python'
+print(string5.isidentifier())
+print(string6.isidentifier())
+list1 = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+list1Join = '-'.join(list1)
+print(list1Join)
+string6 = ('''I am enjoying this challenge.
+i just wonder what is next''')
+string6Split = string6.split('\n')
+print(string6Split)
+string7 = '''Name\tAge\tCountry\t\tCity
+Remuel\t250\tPhilippines\tAngat'''
+print(string7)
 

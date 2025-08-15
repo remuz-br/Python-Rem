@@ -1,4 +1,5 @@
-def emoji_converter(message):
+#"converting any emoji words into actual emoji" exercise
+def emoji_converter(message): #where also using a function for the exercise
     emojis = {
         'sad': ':(',
         'happy': ':)',
@@ -16,11 +17,11 @@ def emoji_converter(message):
         'hello': '👋',
         'bye': '👋'
     }
-    messagesplit = message.split(' ')
+    messagesplit = message.split(' ') #splittin using a space as a seperator a string into a list to access its words one by one
     output = ''
 
-    for word in messagesplit:
-        output += emojis.get(word, word) + ' '
+    for word in messagesplit: #the string is now a list so we can access its words
+        output += emojis.get(word, word) + ' ' #accessing the dictionary with get while the secondary parameter will return the word without definition and also adding spaces as seen there,
 
     return output
 

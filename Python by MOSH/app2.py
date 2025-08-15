@@ -1,3 +1,4 @@
+#exercise for if else statement
 highIncome = True
 criminalRecord = False
 

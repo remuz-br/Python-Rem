@@ -1,10 +1,9 @@
+#exercise for a really simple driving simulation
 start = 'start'
 stop = 'stop'
 qt = 'quit'
 hlp = 'help'
-indicator = 2
-while True:
-  indicator += 1
+while True:#this of course will run forever unless a break statement is created
   user_input = input('>> ').lower
   if user_input == hlp:
     print('''start - to start the car

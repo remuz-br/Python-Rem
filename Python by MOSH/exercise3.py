@@ -1,3 +1,4 @@
+#if exercise for minimum and maximum characters in name input, ideally much better in a while loop
 name = input('Enter your name-  ')
 nameLength = len(name)
 if nameLength < 3:

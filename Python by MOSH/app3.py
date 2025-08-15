@@ -1,3 +1,4 @@
+#again, an exercise about if, elif and else statement
 tempInput = input('What is the temperature today? ')
 temp = int(tempInput)
 if temp > 30:
